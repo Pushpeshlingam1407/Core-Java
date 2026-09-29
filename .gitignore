@@ -1,0 +1,22 @@
+# Compiled Java bytecode
+*.class
+
+# Java build output
+/target/
+/build/
+/out/
+/bin/
+
+# IDE metadata
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# Temporary and log files
+*.log
+*.tmp
+*.swp
+*.swo
