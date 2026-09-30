@@ -1,7 +1,7 @@
 class Operators {
     public static void main(String[] args) {
 
-        //* Addition */
+        // * Addition */
         int a1 = 10 + 20;
         String a2 = "10" + 10;
         int a3 = 'a' + 10; // A char is promoted to its Unicode value before addition.
@@ -24,7 +24,7 @@ class Operators {
         System.out.println("a8 = " + a8);
         System.out.println("a10 = " + a10);
 
-        //*Subtraction */ 
+        // *Subtraction */
         int s1 = 10 - 2;
         int s2 = 10 - 'a'; // 'a' is promoted to its Unicode value (97).
         // String s3 = "hi" - "h"; //! Compilation error: - cannot be used with String values.
@@ -50,7 +50,7 @@ class Operators {
         System.out.println("s8 = " + s8);
         System.out.println("s9 = " + s9);
 
-        //* Multiplication */ 
+        // * Multiplication */
         int m1 = 10 * 2;
         int m2 = 'a' * 2; // A char is promoted to its Unicode value before multiplication.
         // String m3 = "hi" * 2; //! Compilation error: * cannot be used with String values.
@@ -59,5 +59,49 @@ class Operators {
         System.out.println("\nMultiplication");
         System.out.println("m1 = " + m1);
         System.out.println("m2 = " + m2);
+
+        // * Division */
+        int d1 = 10 / 3; // Integer division discards the decimal part, so the result is 3.
+        // String d2 = "hi" / "i"; //! Compilation error: / cannot be used with String values.
+        int d2 = 'h' / 'i'; // Characters are promoted to 104 and 105, so the result is 0.
+        double d3 = 10 / 3; // Both operands are int, so division happens before conversion to double.
+        double d4 = 10 / 3.0; // A double operand preserves the fractional result.
+        int d5 = 100 / 10 / 2; // Division is evaluated from left to right: (100 / 10) / 2.
+        int d6 = 100 / (10 / 2); // Parentheses change the order: 100 / (10 / 2).
+        int d7 = -17 / 5; // Integer division truncates toward zero, giving -3 rather than -4.
+        // int d8 = 10 / 0; // Runtime error: integer division by zero throws ArithmeticException.
+        double d9 = 10.0 / 0; // Floating-point division by zero produces Infinity, not an exception.
+
+        System.out.println("\nDivision");
+        System.out.println("d1 = " + d1);
+        System.out.println("d2 = " + d2);
+        System.out.println("d3 = " + d3);
+        System.out.println("d4 = " + d4);
+        System.out.println("d5 = " + d5);
+        System.out.println("d6 = " + d6);
+        System.out.println("d7 = " + d7);
+        System.out.println("d9 = " + d9);
+
+        // * Modulus */
+        int mo1 = 10 % 3; // Modulus returns the remainder: 10 = (3 * 3) + 1.
+        int mo2 = 'a' % 3; // 'a' is 97, so 97 % 3 is 1.
+        int mo3 = 17 % 5; // The remainder is 2 because 17 = (5 * 3) + 2.
+        int mo4 = -17 % 5; // The remainder keeps the dividend's sign, so the result is -2.
+        int mo5 = 17 % -5; // The divisor's sign does not control the remainder, so the result is 2.
+        int mo6 = 10 % 3 * 2; // Same-precedence operators run left to right: (10 % 3) * 2.
+        int mo7 = 10 % (3 * 2); // Parentheses change the divisor, so the result is 4.
+        int mo8Remainder = 25 % 5;
+        boolean mo8 = mo8Remainder == 0; // Is 25 evenly divisible by 5? Yes, its remainder is zero.
+        // int mo9 = 10 % 0; //! Runtime error: modulus by zero throws ArithmeticException.
+
+        System.out.println("\nModulus");
+        System.out.println("mo1 = " + mo1);
+        System.out.println("mo2 = " + mo2);
+        System.out.println("mo3 = " + mo3);
+        System.out.println("mo4 = " + mo4);
+        System.out.println("mo5 = " + mo5);
+        System.out.println("mo6 = " + mo6);
+        System.out.println("mo7 = " + mo7);
+        System.out.println("mo8 = " + mo8);
     }
 }
