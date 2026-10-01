@@ -22,8 +22,9 @@ public class LogicalOperators {
         System.out.println(10 != 100 || 100 != 10);
         System.out.println(true || (10 + 20 == 30));
         System.out.println(10 == 15 || false);
-
-        // Logical NOT
+        
+        // Logical NOT        
+        System.out.println("\nLogical NOT");
         System.out.println(!(10 == 10));
         System.out.println(!(10 > 9));
         System.out.println(!(10 != 10));
