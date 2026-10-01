@@ -1,6 +1,6 @@
-//TODO: Compound Assignment Operators
+// TODO: Compound Assignment Operators
 //* Compound assignment operators combine an arithmetic operation with assignment.
-//* */ They are short forms of:
+//* They are short forms of:
 //? variable = variable operator value
 //? Examples: +=, -=, *=, /=, %=
 
@@ -14,7 +14,7 @@ class CompoundAssignment {
 
         System.out.println("c = " + c);
 
-        //TODO Tricky question:
+        // TODO Tricky question:
         // int x = 10;
         // x *= 2 + 3;
         // What will x be?

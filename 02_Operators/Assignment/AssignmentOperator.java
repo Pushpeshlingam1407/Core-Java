@@ -9,6 +9,5 @@ class AssignmentOperator {
         int b = 10 + 10 + 2 * 2;
         System.out.println("a = " + a);
         System.out.println("b = " + b);
-
     }
 }
