@@ -1,4 +1,4 @@
-//TODO: Relational Operators */
+//TODO: Relational Operators
 
 import java.util.*;
 
@@ -10,7 +10,7 @@ class RelationalOperators {
         System.out.println(10 > 10);
         System.out.println(10 > 2);
         System.out.println('a' > 10);
-        // System.out.println("a">10); //! Compilation error
+        // System.out.println("a" > 10); //! Compilation error: String cannot be compared using the > operator.
 
         // * < operator */
         System.out.println("\n< Operator\n");
@@ -19,8 +19,8 @@ class RelationalOperators {
         System.out.println(10 < -10);
         System.out.println(10 < 5);
         System.out.println(10 < 1002);
-        // System.out.println(true<false); //! Compilation error due to
-        // System.out.println(true>10); //! Compilation error due to
+        // System.out.println(true < false); //! Compilation error: relational operators cannot be applied to boolean values.
+        // System.out.println(true > 10); //! Compilation error: boolean cannot be compared with an integer using >.
 
         // * == Operator */
         System.out.println("\n== Operator\n");
@@ -35,7 +35,7 @@ class RelationalOperators {
         System.out.println(10 != 'a');
         System.out.println(100 != 'd');
         System.out.println(60 != 'A');
-        // System.out.println(100!="d"); //! Compilation error due to
+        // System.out.println(100 != "d"); //! Compilation error: primitive int and String cannot be compared using !=.
 
         // * <= Operator*/
         System.out.println("\n<= Operator");
@@ -43,9 +43,9 @@ class RelationalOperators {
 
         // * >= Operator */
         System.out.println("\n>= Operator");
-        System.out.println(10 <= 10);
+        System.out.println(10 >= 10);
         System.out.println('a' >= 'b');
-        // System.out.println(true>=false); //! Compilation error due to
+        // System.out.println(true >= false); //! Compilation error: relational operators cannot be applied to boolean values.
         System.out.println('a' <= 'A');
 
     }
