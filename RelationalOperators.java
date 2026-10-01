@@ -19,29 +19,34 @@ class RelationalOperators {
         System.out.println(10 < -10);
         System.out.println(10 < 5);
         System.out.println(10 < 1002);
-        // System.out.println(true<false); //! Compilation error
-        // System.out.println(true>10); //! Compilation error
+        // System.out.println(true<false); //! Compilation error due to
+        // System.out.println(true>10); //! Compilation error due to
 
-        //* == Operator */
+        // * == Operator */
         System.out.println("\n== Operator\n");
-        System.out.println('a'==97);
-        System.out.println('a'=='a');
-        System.out.println(true==false);
-        System.out.println(false==false);
+        System.out.println('a' == 97);
+        System.out.println('a' == 'a');
+        System.out.println(true == false);
+        System.out.println(false == false);
 
-        //* != Operator */
+        // * != Operator */
         System.out.println("\n!= Operator");
-        System.out.println(true!=false);
-        System.out.println(10!='a');
-        System.out.println(100!='d');
-        System.out.println(60!='A');
-        //System.out.println(100!="d"); //! Compilation error
+        System.out.println(true != false);
+        System.out.println(10 != 'a');
+        System.out.println(100 != 'd');
+        System.out.println(60 != 'A');
+        // System.out.println(100!="d"); //! Compilation error due to
 
-        //* <= Operator*/
+        // * <= Operator*/
         System.out.println("\n<= Operator");
-        System.out.println(10<=10);
+        System.out.println(10 <= 10);
 
-        //* >= Operator */
-        
+        // * >= Operator */
+        System.out.println("\n>= Operator");
+        System.out.println(10 <= 10);
+        System.out.println('a' >= 'b');
+        // System.out.println(true>=false); //! Compilation error due to
+        System.out.println('a' <= 'A');
+
     }
 }
