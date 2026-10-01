@@ -11,6 +11,7 @@ public class LogicalOperators {
         System.out.println("\nLogical AND");
         System.out.println(10 > 2 && true);
         System.out.println('a' >= 97 && false);
+        System.out.println(false && 'a' == (96 + 1));
         // System.out.println(10+20 && true); //! Compilation error due to
 
         // * Logical OR */
