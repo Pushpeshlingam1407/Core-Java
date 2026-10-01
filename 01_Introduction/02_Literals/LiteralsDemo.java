@@ -1,11 +1,9 @@
-/*
- * Folder: 01_Introduction / 02_Literals
- * Topic: Literals in Java
- *
- * A literal is a fixed value written directly in the code.
- * Java supports several literal types, including numbers, characters,
- * strings, and boolean values.
- */
+//TODO: Understand the fixed values written directly in Java source code.
+//* Integer literals: 10, 20, 0, and -5.
+//* Decimal literals: 0.5 and 9.3.
+//* Character literals: 'a', '1', and 'K'.
+//* String literals: "hi", "123", and "".
+//* Boolean literals: true and false.
 
 public class LiteralsDemo {
     public static void main(String[] args) {

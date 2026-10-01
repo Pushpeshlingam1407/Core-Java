@@ -1,8 +1,7 @@
-// TODO: Compound Assignment Operators
-//* Compound assignment operators combine an arithmetic operation with assignment.
-//* They are short forms of:
-//? variable = variable operator value
-//? Examples: +=, -=, *=, /=, %=
+//TODO: Learn the shortcut form of arithmetic assignment.
+//* Compound assignment combines an arithmetic operation with assignment.
+//? Example: c += 3 is the shorter form of c = c + 3.
+//* Common forms are +=, -=, *=, /=, and %=.
 
 class CompoundAssignment {
     public static void main(String[] args) {
@@ -14,11 +13,10 @@ class CompoundAssignment {
 
         System.out.println("c = " + c);
 
-        // TODO Tricky question:
-        // int x = 10;
-        // x *= 2 + 3;
-        // What will x be?
-        // Answer: x = 10 * (2 + 3) = 50
-        // Because the expression on the right side is evaluated first, then assigned.
+        //TODO: Tricky question: What is the value of x?
+        //? int x = 10;
+        //? x *= 2 + 3;
+        //? Answer: 50, because x *= 2 + 3 means x = x * (2 + 3).
+        //* The right-hand expression is evaluated before assignment.
     }
 }

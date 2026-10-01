@@ -1,7 +1,7 @@
-// TODO: Assignment Operator
-//*  Assignment operators are used to assign a value to a variable or update its value.
-//* The basic assignment operator is '='.
-//* Other assignment operators are: +=, -=, *=, /=, %=.
+//TODO: Understand how assignment stores a value in a variable.
+//* The '=' operator assigns the value on its right to the variable on its left.
+//? Example: int x = 10; stores 10 in x.
+//* Compound assignment operators include +=, -=, *=, /=, and %=.
 
 class AssignmentOperator {
     public static void main(String[] args) {

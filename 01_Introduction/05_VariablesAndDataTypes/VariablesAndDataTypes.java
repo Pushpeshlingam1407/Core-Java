@@ -1,6 +1,7 @@
-// A variable is a named location in memory used to store a value.
-// To create a variable, we must specify its type.
-// Syntax: datatype variable;
+//TODO: Learn how variables store values in memory.
+//* A variable is a named memory location used to store a value.
+//* A data type tells Java what kind of value the variable can hold.
+//? Syntax: datatype variable;
 
 public class VariablesAndDataTypes {
     public static void main(String[] args) {
@@ -18,8 +19,8 @@ public class VariablesAndDataTypes {
         System.out.println("Student? " + isStudent);
         System.out.println("Name: " + name);
 
-        // Java data types are mainly of two types:
-        // 1. Primitive data types
-        // 2. Non-primitive data types
+        //* Java data types are mainly divided into two groups:
+        //? 1. Primitive data types
+        //? 2. Non-primitive data types
     }
 }

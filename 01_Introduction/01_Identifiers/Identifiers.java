@@ -1,18 +1,12 @@
-/*
- * Folder: 01_Introduction / 01_Identifiers
- * Topic: Java Identifier Naming Conventions
- *
- * Naming conventions are not mandatory in Java, but they are strongly recommended
- * because they improve readability and keep code consistent across projects.
- *
- * Class and interface names follow Upper Camel Case.
- * Variable and method names follow lower camel case.
- * Package names are written in lowercase.
- */
+//TODO: Follow naming conventions when creating Java identifiers.
+//* Identifiers are names given to classes, variables, methods, and packages.
+//* Class and interface names use Upper Camel Case: StudentDetails, BankAccount.
+//* Variable and method names use lower camel case: studentName, calculateSalary().
+//* Package names use lowercase: com.example.demo.
 
 class StudentDetails {
-    // Example of Upper Camel Case for class name
-    // Example of lower camel case for variables and methods
+    //* Upper Camel Case is used for this class name.
+    //* lower camel case is used for these variable and method names.
     private String studentName;
     private int studentAge;
 
@@ -30,13 +24,13 @@ class StudentDetails {
         StudentDetails student = new StudentDetails("Aisha", 21);
         student.displayStudentDetails();
 
-        // Package name example:
-        // com.example.demo
+        //? Package name example:
+        //? com.example.demo
 
-        // Method name example:
-        // calculateSalary()
+        //? Method name example:
+        //? calculateSalary()
 
-        // Variable name example:
-        // studentName, employeeDetails
+        //? Variable name example:
+        //? studentName, employeeDetails
     }
 }
