@@ -6,35 +6,36 @@
 //* Boolean literals: true and false.
 
 public class LiteralsDemo {
-    public static void main(String[] args) {
-        int age = 20;
-        int zero = 0;
-        int negative = -5;
 
-        double price = 9.3;
-        double half = 0.5;
+  public static void main(String[] args) {
+    int age = 20;
+    int zero = 0;
+    int negative = -5;
 
-        char letter = 'A';
-        char digit = '1';
+    double price = 9.3;
+    double half = 0.5;
 
-        String name = "hello";
-        String numbers = "123";
-        String emptyString = "";
+    char letter = 'A';
+    char digit = '1';
 
-        boolean isJavaFun = true;
-        boolean isNight = false;
+    String name = "hello";
+    String numbers = "123";
+    String emptyString = "";
 
-        System.out.println("Integer literal: " + age);
-        System.out.println("Decimal literal: " + price);
-        System.out.println("Character literal: " + letter);
-        System.out.println("String literal: " + name);
-        System.out.println("Boolean literal: " + isJavaFun);
+    boolean isJavaFun = true;
+    boolean isNight = false;
 
-        System.out.println("Negative number: " + negative);
-        System.out.println("Zero: " + zero);
-        System.out.println("Half: " + half);
-        System.out.println("String with numbers: " + numbers);
-        System.out.println("Empty string: '" + emptyString + "'");
-        System.out.println("Boolean false: " + isNight);
-    }
+    System.out.println("Integer literal: " + age);
+    System.out.println("Decimal literal: " + price);
+    System.out.println("Character literal: " + letter);
+    System.out.println("String literal: " + name);
+    System.out.println("Boolean literal: " + isJavaFun);
+
+    System.out.println("Negative number: " + negative);
+    System.out.println("Zero: " + zero);
+    System.out.println("Half: " + half);
+    System.out.println("String with numbers: " + numbers);
+    System.out.println("Empty string: '" + emptyString + "'");
+    System.out.println("Boolean false: " + isNight);
+  }
 }

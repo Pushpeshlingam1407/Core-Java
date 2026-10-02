@@ -4,10 +4,11 @@
 //* Compound assignment operators include +=, -=, *=, /=, and %=.
 
 class AssignmentOperator {
-    public static void main(String[] args) {
-        int a = 10;
-        int b = 10 + 10 + 2 * 2;
-        System.out.println("a = " + a);
-        System.out.println("b = " + b);
-    }
+
+  public static void main(String[] args) {
+    int a = 10;
+    int b = 10 + 10 + 2 * 2;
+    System.out.println("a = " + a);
+    System.out.println("b = " + b);
+  }
 }

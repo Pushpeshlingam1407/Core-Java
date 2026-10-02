@@ -5,32 +5,33 @@
 //* Package names use lowercase: com.example.demo.
 
 class StudentDetails {
-    //* Upper Camel Case is used for this class name.
-    //* lower camel case is used for these variable and method names.
-    private String studentName;
-    private int studentAge;
 
-    public StudentDetails(String studentName, int studentAge) {
-        this.studentName = studentName;
-        this.studentAge = studentAge;
-    }
+  //* Upper Camel Case is used for this class name.
+  //* lower camel case is used for these variable and method names.
+  private String studentName;
+  private int studentAge;
 
-    public void displayStudentDetails() {
-        System.out.println("Student Name: " + studentName);
-        System.out.println("Student Age: " + studentAge);
-    }
+  public StudentDetails(String studentName, int studentAge) {
+    this.studentName = studentName;
+    this.studentAge = studentAge;
+  }
 
-    public static void main(String[] args) {
-        StudentDetails student = new StudentDetails("Aisha", 21);
-        student.displayStudentDetails();
+  public void displayStudentDetails() {
+    System.out.println("Student Name: " + studentName);
+    System.out.println("Student Age: " + studentAge);
+  }
 
-        //? Package name example:
-        //? com.example.demo
+  public static void main(String[] args) {
+    StudentDetails student = new StudentDetails("Aisha", 21);
+    student.displayStudentDetails();
 
-        //? Method name example:
-        //? calculateSalary()
+    //? Package name example:
+    //? com.example.demo
 
-        //? Variable name example:
-        //? studentName, employeeDetails
-    }
+    //? Method name example:
+    //? calculateSalary()
+
+    //? Variable name example:
+    //? studentName, employeeDetails
+  }
 }
