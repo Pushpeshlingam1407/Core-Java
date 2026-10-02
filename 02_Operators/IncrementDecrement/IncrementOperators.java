@@ -2,8 +2,8 @@
 //* These are Unary operators
 //* To use increment operators we have to create a variable
 //* In java we have 2 types of Increment operators
-//? 1. Pre increment operator
-//? 2. Post increment operator */
+//? 1. Pre increment operator Syntax: ++variableName
+//? 2. Post increment operator Syntax: variableName++ */
 
 import java.util.*;
 
@@ -19,7 +19,6 @@ public class IncrementOperators {
     int a = 10;
     System.out.println(++a);
     System.out.println(++a);
-    System.out.println(a);
 
     //* 2. Post-Increment operator */
     //* It has 2 works */
