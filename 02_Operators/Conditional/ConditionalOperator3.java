@@ -1,3 +1,4 @@
+//TODO: Condtional Operator by using 4 variables */
 import java.util.*;
 
 public class ConditionalOperator3 {
