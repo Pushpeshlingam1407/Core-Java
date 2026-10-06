@@ -2,22 +2,22 @@
 //? If is a keyword in Java that is used to make decisions based on a condition. It allows the program to execute a block of code only if a specified condition is true.
 //? The simple if statement is used to execute a block of code only if a specified condition is true.
 
-//* Syntax of simple if statement: */
+//TODO: Syntax of simple if statement: */
 //* Multiple line statement: */
 //  if (condition) {
-//  block of code to be executed if the condition is true
+//    block of code to be executed if the condition is true
 // }
 
 //* Single line statement: */
 // if (condition) { block of code to be executed if the condition is true; }
 
-//*Pseudocode: */
-//* statement1; */
-//* if(condition){
-//*   statement2;
-//* statement3;
-//* }
-//* statement4;
+//TODO:Pseudocode: */
+// statement1; */
+// if(condition){
+//   statement2;
+//   statement3;
+// }
+// statement4;
 
 //* Workflow */
 //* 1. Execute statement1

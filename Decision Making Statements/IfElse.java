@@ -3,29 +3,27 @@
 //* Else is used to execute a block of code when the condition in the if statement is false. */
 //* But alone, the else statement is not sufficient to make a decision. It must be used in conjunction with an if statement. */
 
-//* Syntax of if-else statement: */
+//TODO: Syntax of if-else statement: */
 //* Multiple line statement: */
-//* if (condition) {
-//*   block of code to be executed if the condition is true;
-//* } else {
-//*   block of code to be executed if the condition is false;
-//* }
+// if (condition) {
+//   block of code to be executed if the condition is true;
+// } else {
+//   block of code to be executed if the condition is false;
+// }
 
 //* Single line statement: */
-//* if (condition) statement1; else statement2;
-
-//* When we have 2 sets of code to execute based on a condition, we use the if-else statement. */
+// if (condition) statement1; else statement2;
 
 //TODO Psuedo code:
-//* statement1; */
-//* if (condition) {
-//* statement2;
-//* statement3;
-//* } else {
-//* statement4;
-//* statement5;
-//* }
-//* statment6;
+// statement1;
+// if (condition) {
+//   statement2;
+//   statement3;
+// } else {
+//   statement4;
+//   statement5;
+// }
+// statement6;
 
 //TODO workflow of above psuedo code:
 //* statement1 is executed first.
