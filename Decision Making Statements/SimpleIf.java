@@ -17,7 +17,7 @@ public class SimpleIf {
 
   public static void main(String[] args) {
     System.out.println("Helloo! Welcome to the world of Java Programming");
-    if (10 < 3) {
+    if (10 > 3) {
       System.out.println("Hii");
       System.out.println("This is inside the if block");
     }
