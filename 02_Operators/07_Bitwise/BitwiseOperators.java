@@ -1,14 +1,14 @@
-//TODO: Bitwise Operators
-//* All bitwise operators will work on binary internally
-//* All bitwise operators will take input as integer, output also an integer */
-//* There are 7 bitwise operators in Java: &, |, ^, ~, <<, >>, >>> */
-//? 1. Bitwise AND (&): Performs AND on each corresponding pair of bits, Result is 1 only when both bits are 1.
-//? 2. Bitwise OR (|): Performs OR on each corresponding pair of bits, Result is 1 when at least one bit is 1.
-//? 3. Bitwise XOR (^): Performs XOR on each corresponding pair of bits. Result is 1 when the two bits are different.
-//? 4. Bitwise NOT (~): Inverts every bit. 0 becomes 1 and 1 becomes 0.
-//? 5. Left Shift (<<): Shifts bits to the left by the specified number of positions. Zeros are filled on the right.
-//? 6. Signed Right Shift (>>): Shifts bits to the right by the specified number of positions. For negative numbers, the sign bit is preserved.
-//? 7. Unsigned Right Shift (>>>): Shifts bits to the right and fills the left side with zeros.
+// TODO: Bitwise Operators
+// * All bitwise operators work on binary representations internally.
+// * All bitwise operators take integer values as input and produce an integer as output.
+// * There are 7 bitwise operators in Java: &, |, ^, ~, <<, >>, >>>
+// ? 1. Bitwise AND (&): Performs an AND operation on each corresponding pair of bits; the result is 1 only when both bits are 1.
+// ? 2. Bitwise OR (|): Performs an OR operation on each corresponding pair of bits; the result is 1 when at least one bit is 1.
+// ? 3. Bitwise XOR (^): Performs an XOR operation on each corresponding pair of bits; the result is 1 when the two bits are different.
+// ? 4. Bitwise NOT (~): Inverts every bit; 0 becomes 1 and 1 becomes 0.
+// ? 5. Left Shift (<<): Shifts the bits to the left by the specified number of positions, filling the right side with zeros; this generally increases the value.
+// ? 6. Signed Right Shift (>>): Shifts the bits to the right by the specified number of positions; for negative numbers, the sign bit is preserved, generally decreasing the value.
+// ? 7. Unsigned Right Shift (>>>): Shifts the bits to the right by the specified number of positions and fills the left side with zeros; the result is always non-negative.
 
 import java.util.*;
 
