@@ -11,6 +11,20 @@
 //* Single line statement: */
 // if (condition) { block of code to be executed if the condition is true; }
 
+//*Pseudocode: */
+//* statement1; */
+//* if(condition){
+//*   statement2;
+//* statement3;
+//* }
+//* statement4;
+
+//* Workflow */
+//* 1. Execute statement1
+//* 2. Check the condition
+//* 3. If the condition is true, execute statement2 and statement3
+//* 4. Execute statement4
+
 import java.util.*;
 
 public class SimpleIf {
