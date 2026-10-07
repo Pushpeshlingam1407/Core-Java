@@ -1,4 +1,4 @@
-public class Problem3 {
+public class NestedIf3 {
 
   public static void main(String[] args) {
     int x = 5;

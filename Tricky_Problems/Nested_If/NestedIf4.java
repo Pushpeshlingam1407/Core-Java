@@ -1,5 +1,4 @@
-package Nested_If;
-public class Problem4 {
+public class NestedIf4 {
 
   public static void main(String[] args) {
     int x = 5;

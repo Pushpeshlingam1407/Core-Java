@@ -1,4 +1,4 @@
-public class Problem1 {
+public class IfElseLadder1 {
 
   public static void main(String[] args) {
     int a = 2;
