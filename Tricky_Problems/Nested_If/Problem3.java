@@ -1,4 +1,4 @@
-public class Problem13 {
+public class Problem3 {
 
   public static void main(String[] args) {
     int x = 5;
