@@ -1,4 +1,4 @@
-public class IfElseLadder1 {
+public class If_Else_Ladder1 {
 
   public static void main(String[] args) {
     int a = 2;

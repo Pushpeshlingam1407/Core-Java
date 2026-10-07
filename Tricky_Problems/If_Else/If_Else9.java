@@ -1,4 +1,4 @@
-public class IfElse9 {
+public class If_Else9 {
 
   public static void main(String[] args) {
     int x = 1;

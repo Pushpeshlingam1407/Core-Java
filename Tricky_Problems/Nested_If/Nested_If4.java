@@ -1,4 +1,4 @@
-public class NestedIf4 {
+public class Nested_If4 {
 
   public static void main(String[] args) {
     int x = 5;

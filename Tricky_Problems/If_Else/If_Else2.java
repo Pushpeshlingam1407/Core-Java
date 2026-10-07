@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class IfElse2 {
+public class If_Else2 {
 
   public static void main(String[] args) {
     int x = 10;
