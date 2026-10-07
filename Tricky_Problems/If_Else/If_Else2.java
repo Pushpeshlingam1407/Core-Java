@@ -1,5 +1,3 @@
-package If_Else;
-
 import java.util.*;
 
 public class If_Else2 {

@@ -1,5 +1,3 @@
-package If_Else;
-
 public class If_Else5 {
 
   public static void main(String[] args) {

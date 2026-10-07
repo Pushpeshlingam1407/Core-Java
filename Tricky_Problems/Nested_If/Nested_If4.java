@@ -1,5 +1,3 @@
-package Nested_If;
-
 public class Nested_If4 {
 
   public static void main(String[] args) {
