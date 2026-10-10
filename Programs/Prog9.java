@@ -17,8 +17,8 @@
 public class Prog9 {
 
   public static void main(String[] args) {
-    String gender = "MALE";
-    String qualification = "PG";
+    String gender = "FEMALE";
+    String qualification = "GRADUATE";
     int yos = 9,
       salary;
     if (gender == "MALE") {
