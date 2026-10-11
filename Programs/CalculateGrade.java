@@ -9,8 +9,15 @@
 public class CalculateGrade {
 
   public static void main(String[] args) {
-    int percentage = 88;
-    if (percentage >= 90) System.out.println("Grade A");
+    int physics = 12,
+      chemistry = 23,
+      biology = 98,
+      mathematics = 56,
+      computer = 98;
+    double percentage =
+      (physics + chemistry + biology + mathematics + computer) / 5.0;
+    System.out.println("Percentage: " + percentage + "%");
+    if (percentage >= 90 && percentage <= 100) System.out.println("Grade A");
     else if (percentage >= 80) System.out.println("Grade B");
     else if (percentage >= 70) System.out.println("Grade C");
     else if (percentage >= 60) System.out.println("Grade D");

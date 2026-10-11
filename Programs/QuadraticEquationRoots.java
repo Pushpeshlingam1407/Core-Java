@@ -14,12 +14,12 @@ public class QuadraticEquationRoots {
       System.out.println("Root1: " + roots1 + "\n" + "Root2: " + roots2);
     } else if (delta == 0) {
       double roots = -x / (2.0 * x2);
-      System.out.println("Both Roots are equal");
+      System.out.println("Both Roots are equal: " + roots);
     } else {
       double realPart = -x / (2.0 * x2);
       double imaginaryPart = Math.sqrt(-delta) / (2.0 * x2);
       System.out.println("Root 1: " + realPart + " + " + imaginaryPart + "i");
-      System.out.println("Root 2: " + realPart + " + " + imaginaryPart + "i");
+      System.out.println("Root 2: " + realPart + " - " + imaginaryPart + "i");
     }
   }
 }

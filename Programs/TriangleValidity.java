@@ -2,13 +2,14 @@
 
 public class TriangleValidity {
 
-  public static void main(String[] agrs) {
+  public static void main(String[] args) {
     int adjacent = 60,
-      hypothesis = 60,
+      hypotenuse = 60,
       opposite = 60;
-    if (adjacent + hypothesis + opposite == 180) System.out.println(
-      "Triangle is valid"
-    );
+    int sum = adjacent + hypotenuse + opposite;
+    if (
+      adjacent > 0 && hypotenuse > 0 && opposite > 0 && sum == 180
+    ) System.out.println("Triangle is valid");
     else System.out.println("Triangle is invalid");
   }
 }
