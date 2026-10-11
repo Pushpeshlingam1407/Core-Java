@@ -1,4 +1,5 @@
 //TODO: WAP in java to check whether a triangle is valid or not, when the three angles of the triangle are enteredd through the keyboard. A triangle is valid if the sum of all the three angles is equal to 180 degrees
+
 public class TriangleValidity {
 
   public static void main(String[] agrs) {

@@ -1,7 +1,6 @@
 //TODO: Given the length and breadth of a rectangle, WAP in java to find whether the area of the rectangle is greater than its perimeter or not. For example, the area of the rectangle with length 5 and breadth 4 is greater than it's perimeter
 
 public class RectangleAreaVsPerimeter {
-    
 
   public static void main(String[] args) {
     int length = 5,
