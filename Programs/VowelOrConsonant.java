@@ -1,6 +1,6 @@
 //TODO: WAP in java to input any alphabet  and check whether it is vowel or consonant
 
-public class Prog4 {
+public class VowelOrConsonant {
 
   public static void main(String[] args) {
     char alpha = '@';

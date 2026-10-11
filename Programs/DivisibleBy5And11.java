@@ -1,6 +1,6 @@
 // TODO: Write a Java program to check whether a number is divisible by both 5 and 11.
 
-public class Prog2 {
+public class DivisibleBy5And11 {
 
   public static void main(String[] args) {
     int a = 55;

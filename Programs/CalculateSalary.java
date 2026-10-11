@@ -14,7 +14,7 @@
  *          < 10              GRADUATE        6000
  */
 
-public class Prog9 {
+public class CalculateSalary {
 
   public static void main(String[] args) {
     String gender = "FEMALE";

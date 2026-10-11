@@ -1,5 +1,5 @@
 //TODO: WAP in java to find a given year is leap year or not
-public class Prog3 {
+public class LeapYear {
 
   public static void main(String[] args) {
     int year = 1900;

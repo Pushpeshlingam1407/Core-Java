@@ -6,7 +6,7 @@
    Percentage >= 40 %: Grade E
    Percentage < 40 %:  Grade F*/
 
-public class Prog8 {
+public class CalculateGrade {
 
   public static void main(String[] args) {
     int percentage = 88;

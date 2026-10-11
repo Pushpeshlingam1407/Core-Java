@@ -1,6 +1,6 @@
 //TODO: WAP in java to find the maximum Number among 2 numbers
 
-public class Prog1 {
+public class MaxOfTwoNumbers {
 
   public static void main(String[] args) {
     int a = 55,

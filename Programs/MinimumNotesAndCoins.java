@@ -1,5 +1,5 @@
 // TODO: Write a Java program to count the minimum number of notes and coins required for a given amount.
-public class Prog6 {
+public class MinimumNotesAndCoins {
 
   public static void main(String[] args) {
     int amount = 9999;

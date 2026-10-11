@@ -1,5 +1,5 @@
 //TODO: WAP in java to check whether a character is uppercase or not
-public class Prog5 {
+public class CheckUppercase {
 
   public static void main(String[] args) {
     char ch = 'A';
