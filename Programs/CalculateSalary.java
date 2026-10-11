@@ -19,8 +19,7 @@ public class CalculateSalary {
   public static void main(String[] args) {
     String gender = "FEMALE";
     String qualification = "GRADUATE";
-    int yos = 9,
-      salary;
+    int yos = 9;
     if (gender == "MALE") {
       if (qualification == "GRADUATE") {
         if (yos >= 10) System.out.println(10000);
