@@ -23,7 +23,7 @@ public class CalculateGrade {
       biology <= 100 &&
       mathematics >= 0 &&
       mathematics <= 100 &&
-      computer > 0 &&
+      computer >= 0 &&
       computer <= 100
     ) {
       double percentage =
