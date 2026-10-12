@@ -24,9 +24,7 @@ public class MaxOfThreeNumbers {
     if (n1 > n2 && n1 > n3) System.out.println(
       "N1 is the maximum number: " + n1
     );
-    else if (n2 > n3 && n2 > n1) System.out.println(
-      "N2 is the maximum number: " + n2
-    );
+    else if (n2 > n3) System.out.println("N2 is the maximum number: " + n2);
     else System.out.println("N3 is the maximum number: " + n3);
   }
 }
