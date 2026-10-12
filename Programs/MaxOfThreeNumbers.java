@@ -4,7 +4,7 @@ public class MaxOfThreeNumbers {
 
   public static void main(String[] args) {
     int n1 = 90,
-      n2 = 77,
+      n2 = 100,
       n3 = 87;
     if (n1 > n2) {
       if (n1 > n3) System.out.println(
@@ -13,7 +13,7 @@ public class MaxOfThreeNumbers {
       else System.out.println("n3 is the maximum number: " + n3);
     } else {
       if (n2 > n3) System.out.println(
-        "n2 is the maximum number : " + n2
+        "n2 is the maximum number: " + n2
       );
       else System.out.println("n3 is the maximum number: +n3");
     }
