@@ -6,7 +6,7 @@ public class Table2 {
       i = 2;
 
     while (n <= 10) {
-      System.out.println(+i + " X " + n + " = " + i * n);
+      System.out.println(i + " X " + n + " = " + i * n);
       n++;
     }
   }
