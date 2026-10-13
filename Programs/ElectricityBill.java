@@ -7,21 +7,33 @@
 public class ElectricityBill {
 
   public static void main(String[] args) {
-    int units = 78;
-    double bill;
-    if (units < 0) {
-      System.out.println("Invalid units!!");
-      return;
-    } else if (units <= 50) {
-      bill = units * 0.5;
-    } else if (units <= 150) {
-      bill = 25 + (units - 50) * 0.75;
-    } else if (units <= 250) {
-      bill = 100 + (units - 150) * 1.20;
-    } else {
-      bill = 220 + (units - 250) * 1.5;
-      bill += bill * 0.2;
+    //TODO: APPROACH 1
+    // int units = 78;
+    // double bill;
+    // if (units < 0) {
+    //   System.out.println("Invalid units!!");
+    //   return;
+    // } else if (units <= 50) {
+    //   bill = units * 0.5;
+    // } else if (units <= 150) {
+    //   bill = 25 + (units - 50) * 0.75;
+    // } else if (units <= 250) {
+    //   bill = 100 + (units - 150) * 1.20;
+    // } else {
+    //   bill = 220 + (units - 250) * 1.5;
+    //   bill += bill * 0.2;
+    // }
+    // System.out.println("Total bill: Rs. " + bill);
+
+    //TODO: APPROACH 2
+    int units = 270;
+    double bill = 0;
+    if (units <= 50) {
+      bill = bill + units * 0.5;
     }
-    System.out.println("Total bill: Rs. " + bill);
+    else if(units>50 && units<=150){
+      bill=bill+50*0.5;
+    }
   }
+
 }
