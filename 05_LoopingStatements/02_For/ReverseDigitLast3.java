@@ -1,3 +1,5 @@
+//TODO: WAP in java to reverse digits of a given number
+
 public class ReverseDigitLast3 {
 
   public static void main(String[] args) {
@@ -8,4 +10,5 @@ public class ReverseDigitLast3 {
       num /= 10;
     }
   }
+
 }

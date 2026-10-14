@@ -1,3 +1,5 @@
+//TODO: Tricky problem: Predict variable value in nested if when outer condition fails with post-increment
+
 public class Nested_If3 {
 
   public static void main(String[] args) {

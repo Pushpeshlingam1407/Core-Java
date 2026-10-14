@@ -1,3 +1,5 @@
+//TODO: Tricky problem: Predict output of switch statement with post-increment in switch expression
+
 public class Switch_Case1 {
 
   public static void main(String[] args) {

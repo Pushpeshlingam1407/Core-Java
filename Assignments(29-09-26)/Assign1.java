@@ -1,3 +1,5 @@
+//TODO: WAP in java to read and display student details (Name, Roll No, Age, Email, Gender, Mobile Number) using Scanner
+
 import java.util.*;
 
 public class Assign1 {

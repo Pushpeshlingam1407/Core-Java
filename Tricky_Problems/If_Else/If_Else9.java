@@ -1,3 +1,5 @@
+//TODO: Tricky problem: Predict short-circuit evaluation of logical OR (||) when left operand is true
+
 public class If_Else9 {
 
   public static void main(String[] args) {

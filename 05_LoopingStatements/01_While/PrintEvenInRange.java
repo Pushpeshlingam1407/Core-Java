@@ -1,6 +1,6 @@
 //TODO: WAP in java to print only even numbers present between 100 to 200 using while loop
 
-public class PrintEven {
+public class PrintEvenInRange {
 
   public static void main(String[] args) {
     int st = 100,

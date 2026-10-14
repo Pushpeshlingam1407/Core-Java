@@ -1,3 +1,5 @@
+//TODO: Tricky problem: Predict output when first condition in logical AND evaluates to false
+
 public class If_Else7 {
 
   public static void main(String[] args) {

@@ -1,3 +1,5 @@
+//TODO: WAP in java to reverse digits of an octal number
+
 public class ReverseDigitLast1 {
 
   public static void main(String[] args) {

@@ -1,6 +1,6 @@
 //TODO: Switch Case
 
-public class SwitchCase {
+public class SwitchCase1 {
 
   public static void main(String[] args) {
     String day = "Thursday";

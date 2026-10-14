@@ -1,3 +1,5 @@
+//TODO: Demonstrate switch case fall-through when break statements are omitted
+
 public class SwitchCase2 {
 
   public static void main(String[] args) {

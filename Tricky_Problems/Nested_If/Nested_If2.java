@@ -1,3 +1,5 @@
+//TODO: Tricky problem: Predict output and variable value in nested if with pre-increment and post-increment
+
 public class Nested_If2 {
 
   public static void main(String[] args) {

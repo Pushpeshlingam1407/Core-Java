@@ -1,3 +1,5 @@
+//TODO: Tricky problem: Predict variable state with multiple increment operations in boolean condition
+
 public class If_Else8 {
 
   public static void main(String[] args) {

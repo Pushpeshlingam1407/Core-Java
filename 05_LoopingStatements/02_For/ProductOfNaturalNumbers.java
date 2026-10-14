@@ -1,4 +1,6 @@
-public class ProductNatural {
+//TODO: WAP in java to find product of first 10 natural numbers using for loop
+
+public class ProductOfNaturalNumbers {
 
   public static void main(String[] args) {
     int n = 10,

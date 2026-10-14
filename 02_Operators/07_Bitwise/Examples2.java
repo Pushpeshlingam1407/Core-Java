@@ -1,3 +1,5 @@
+//TODO: Evaluate bitwise operations on positive and negative integer operands including shift operators
+
 import java.util.*;
 
 public class Examples2 {

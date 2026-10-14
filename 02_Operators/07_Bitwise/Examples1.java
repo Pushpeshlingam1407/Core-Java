@@ -1,3 +1,5 @@
+//TODO: Evaluate bitwise operations (&, |, ^, >>, <<, >>>, ~) on positive integer operands
+
 import java.util.*;
 
 public class Examples1 {

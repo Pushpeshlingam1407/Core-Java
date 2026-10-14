@@ -1,3 +1,5 @@
+//TODO: Demonstrate multiple case labels in a switch statement
+
 public class SwitchCase3 {
 
   public static void main(String[] args) {

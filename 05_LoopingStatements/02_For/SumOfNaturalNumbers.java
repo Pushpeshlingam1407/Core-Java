@@ -1,4 +1,6 @@
-public class NaturalNumbers {
+//TODO: WAP in java to find sum of first 10 natural numbers using for loop
+
+public class SumOfNaturalNumbers {
 
   public static void main(String[] args) {
     // int n = 100,
