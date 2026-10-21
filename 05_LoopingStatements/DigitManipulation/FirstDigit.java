@@ -4,6 +4,10 @@
 public class FirstDigit {
 
   public static void main(String[] args) {
-    // TODO: Implement logic to find the 1st digit
+    int num = 987654321;
+    while (num >= 10) {
+      num /= 10;
+    }
+    System.out.println("First digit: " + num);
   }
 }

@@ -8,9 +8,7 @@ public class LargestDigit {
     int largest = num % 10;
     while (num > 0) {
       int rem = num % 10;
-      if (largest < rem) {
-        largest = rem;
-      }
+      if (largest < rem) largest = rem;
       num /= 10;
     }
     System.out.println("Largest digit: " + largest);
