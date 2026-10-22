@@ -1,4 +1,10 @@
-//TODO:
+//TODO: WAP in Java to print a 4x4 pattern with stars (*) only on the first (1st) and last (4th) rows
+/*
+ * * * *
+    
+    
+ * * * *
+ */
 public class Pattern3 {
 
   public static void main(String[] args) {

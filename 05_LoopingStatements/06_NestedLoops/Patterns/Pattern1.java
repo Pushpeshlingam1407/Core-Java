@@ -1,4 +1,10 @@
-//TODO:
+//TODO: WAP in Java to print a 4x4 solid square pattern of stars (*)
+/*
+ * * * *
+ * * * *
+ * * * *
+ * * * *
+ */
 public class Pattern1 {
 
   public static void main(String[] args) {

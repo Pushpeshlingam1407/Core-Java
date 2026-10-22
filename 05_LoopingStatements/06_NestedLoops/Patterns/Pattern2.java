@@ -1,4 +1,10 @@
-//TODO:
+//TODO: WAP in Java to print a 4x4 grid of stars (*) where the 2nd row is '@'
+/*
+ * * * *
+ @ @ @ @
+ * * * *
+ * * * *
+ */
 public class Pattern2 {
 
   public static void main(String[] args) {

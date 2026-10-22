@@ -1,4 +1,11 @@
-//TODO:
+//TODO: WAP in Java to print a 5x5 grid of stars (*) with '@' at the center (row 3, col 3)
+/*
+ * * * * *
+ * * * * *
+ * * @ * *
+ * * * * *
+ * * * * *
+ */
 
 public class Pattern5 {
 

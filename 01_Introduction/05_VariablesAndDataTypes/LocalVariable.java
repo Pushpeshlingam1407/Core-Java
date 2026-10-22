@@ -1,3 +1,6 @@
+//TODO: LOCAL VARIABLE
+// * If any variable which is declared 
+
 public class LocalVariable {
 
   public static void main(String[] args) {
