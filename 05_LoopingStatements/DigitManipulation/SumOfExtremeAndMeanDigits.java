@@ -4,6 +4,18 @@
 public class SumOfExtremeAndMeanDigits {
 
   public static void main(String[] args) {
-    // TODO: Implement logic to check if sum of extreme digits and sum of mean digits are equal
+    int num = 8642,
+      extreme = 0,
+      mean = 0;
+
+    extreme += num % 10;
+    num /= 10;
+    while (num > 9) {
+      mean += num % 10;
+      num /= 10;
+    }
+    extreme += num % 10;
+    if (extreme == mean) System.out.println("Equal");
+    else System.out.println("Not Equal");
   }
 }
