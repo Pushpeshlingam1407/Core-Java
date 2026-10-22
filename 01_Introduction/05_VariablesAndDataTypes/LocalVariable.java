@@ -7,10 +7,8 @@
 
 //TODO: RULES OF LOCAL VARIABLES:
 
-//?  1. We can use a local variable only within the block where it is declared.
-
-// ?  2. We cannot declare multiple local variables with the same name within the same scope.
-
+// ? 1. We can use a local variable only within the block where it is declared.
+// ? 2. We cannot declare multiple local variables with the same name within the same scope.
 // ? 3. We can declare a local variable without initializing it, but we cannot use it without assigning a value first.
 
 public class LocalVariable {
