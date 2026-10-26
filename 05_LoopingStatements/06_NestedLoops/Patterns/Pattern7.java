@@ -9,14 +9,14 @@ public class Pattern7 {
       for (int j = 1; j <= space; j++) {
         System.out.print("  ");
       }
+      space--;
 
       for (int k = 1; k <= star; k++) {
         System.out.print("* ");
       }
 
-      System.out.println();
-      space--;
       star++;
+      System.out.println();
     }
   }
 }
