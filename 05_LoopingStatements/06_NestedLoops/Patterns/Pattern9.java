@@ -1,3 +1,10 @@
+//TODO: WAP in Java to print a 4-row inverted right-angled triangle pattern of stars (*) (left-aligned)
+/*
+ * * * * 
+ * * * 
+ * * 
+ * 
+ */
 public class Pattern9 {
 
   public static void main(String[] args) {

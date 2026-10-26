@@ -1,3 +1,9 @@
+//TODO: WAP in Java to print a pyramid pattern of stars (*)
+/*
+     * 
+   * * * 
+ * * * * * 
+ */
 public class Pattern10 {
 
   public static void main(String[] args) {

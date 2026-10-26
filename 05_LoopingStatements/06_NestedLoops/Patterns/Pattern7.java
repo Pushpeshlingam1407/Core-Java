@@ -1,3 +1,9 @@
+//TODO: WAP in Java to print a 3-row right-angled triangle pattern of stars (*) (right-aligned)
+/*
+     * 
+   * * 
+ * * * 
+ */
 public class Pattern7 {
 
   public static void main(String[] args) {

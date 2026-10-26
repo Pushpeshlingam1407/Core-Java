@@ -1,3 +1,11 @@
+//TODO: WAP in Java to print a 5-row half-diamond pattern of stars (*) (left-aligned / pointing right)
+/*
+ * 
+ * * 
+ * * * 
+ * * 
+ * 
+ */
 public class Pattern11 {
 
   public static void main(String[] args) {
