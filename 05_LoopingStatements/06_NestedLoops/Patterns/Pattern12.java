@@ -1,8 +1,8 @@
 //TODO: WAP in Java to print an inverted pyramid pattern of stars (*)
 /*
  * * * * *
- * * *
- *
+  * * *
+    *
  */
 public class Pattern12 {
 
