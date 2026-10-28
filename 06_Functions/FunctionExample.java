@@ -1,4 +1,5 @@
-public class Example {
+//TODO: Functions in Java - Defining and calling methods/functions (with and without parameters, and calculating sum of digits)
+public class FunctionExample {
 
   public static void main(String[] args) {
     // motu();
