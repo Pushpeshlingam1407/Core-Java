@@ -8,6 +8,7 @@ public class MethodOverloading {
     add(1, 31.2);
     sub(19.8, 8.06);
     System.out.println(add(10.78, 23));
+    // test();
   }
 
   static int add(double n1, int n2) {
@@ -36,5 +37,10 @@ public class MethodOverloading {
 
   static void sub(double n1, double n2) {
     System.out.println(n1 - n2);
+  }
+
+  static void test() {
+    System.out.println("Hiii");
+    test();
   }
 }
