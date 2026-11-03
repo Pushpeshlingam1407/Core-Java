@@ -1,18 +1,20 @@
-
 public class Pattern16 {
-    public static void main(String[] args) {
-        int rows = 7, cols = 7;
 
-        for (int i = 1; i <= rows; i++) {
-            for (int j = 1; j <= cols; j++) {
-                if (i + j == 6 || (i == 3) || (i == 4 && j == 1)
-                    || (i == 4 && j == 2) || (i == 5 && j == 1)) {
-                    System.out.print("*  ");
-                } else {
-                    System.out.print("   ");
-                }
-            }
-            System.out.println();
-        }
+  public static void main(String[] args) {
+    int row = 5,
+      space = 3,
+      star = -1;
+    for (int i = 1; i <= row; i++) {
+      if (i <= (row + 1) / 2) {
+        space--;
+        star += 2;
+      } else {
+        space++;
+        star -= 2;
+      }
+      for (int j = 1; j <= space; j++) System.out.print("  ");
+      for (int k = 1; k <= star; k++) System.out.print("* ");
+      System.out.println();
     }
+  }
 }
