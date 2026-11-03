@@ -1,3 +1,6 @@
+//TODO: WAP in Java to check whether a given number is an Armstrong number or not
+// Example: 153 -> 1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153 (Armstrong Number)
+
 public class ArmstrongNumber {
 
   static String isArmstrong(int num) {

@@ -1,3 +1,11 @@
+//TODO: WAP in Java to print a 5-row diamond pattern of stars (*)
+/*
+    * 
+  * * * 
+* * * * * 
+  * * * 
+    * 
+ */
 public class Pattern16 {
 
   public static void main(String[] args) {

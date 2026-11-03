@@ -1,3 +1,4 @@
+//TODO: Functions with return values in Java - Defining and calling static methods returning int and String
 public class Function2 {
 
   static int chotu() {

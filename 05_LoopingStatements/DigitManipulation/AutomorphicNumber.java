@@ -1,3 +1,6 @@
+//TODO: WAP in Java to check whether a given number is an Automorphic number or not
+// Example: 25 -> 25^2 = 625 (ends with 25, so Automorphic Number)
+
 public class AutomorphicNumber {
 
   static String isAutomorphic(int num) {

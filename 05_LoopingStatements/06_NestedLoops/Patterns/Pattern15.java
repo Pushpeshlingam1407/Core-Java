@@ -1,4 +1,4 @@
-//TODO: WAP in Java to print a diamond pattern of stars (*)
+//TODO: WAP in Java to print a 4-row right-angled triangle pattern of alternating characters (A, B) and stars (*)
 /*
   A
   * * 

@@ -1,3 +1,6 @@
+//TODO: WAP in Java to check whether a given number is a Spy number or not
+// Example: num = 1124, sum = 1+1+2+4 = 8, product = 1*1*2*4 = 8 (Spy Number)
+
 public class SpyNumber {
 
   static String isSpy(int num) {
