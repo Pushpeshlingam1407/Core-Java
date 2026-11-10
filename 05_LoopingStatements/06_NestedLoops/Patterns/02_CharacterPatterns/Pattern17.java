@@ -1,3 +1,11 @@
+//TODO: WAP in Java to print a 5-row diamond pattern of sequential lowercase alphabet characters
+/*
+    a 
+  a b c 
+a b c d e 
+  a b c 
+    a 
+ */
 public class Pattern17 {
 
   public static void main(String[] args) {

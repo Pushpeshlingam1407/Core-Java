@@ -1,3 +1,10 @@
+//TODO: WAP in Java to print a 4-row pyramid pattern of palindromic lowercase alphabet characters
+/*
+      a 
+    a b a 
+  a b c b a 
+a b c d c b a 
+ */
 public class Pattern18 {
 
   public static void main(String[] args) {

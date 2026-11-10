@@ -1,3 +1,13 @@
+//TODO: WAP in Java to print a 7-row diamond pattern of palindromic lowercase alphabet characters
+/*
+      a 
+    a b a 
+  a b c b a 
+a b c d c b a 
+  a b c b a 
+    a b a 
+      a 
+ */
 public class Pattern19 {
 
   public static void main(String[] args) {
