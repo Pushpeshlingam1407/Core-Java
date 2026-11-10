@@ -1,3 +1,4 @@
+//TODO: Practical demonstration of methods with various return types (void, int, double, boolean, char) and arithmetic calculations
 public class MathOperations {
 
   public static void main(String[] args) {
