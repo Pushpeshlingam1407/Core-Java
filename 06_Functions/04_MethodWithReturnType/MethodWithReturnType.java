@@ -19,7 +19,8 @@
 class MethodWithReturnType {
 
   public static void main(String[] args) {
-    System.out.println(mul(13, 5));
+    int res = mul(12, 5);
+    System.out.println(res);
   }
 
   public static int mul(int a, int b) {
