@@ -25,40 +25,5 @@
  * 4. CONSTRUCTORS:
  *    //TODO: Write Definition Here
  * 
- * 
- * ============================================================================
- *                              NOTE SECTION
- * ============================================================================
- * //? NOTE:
- * //* [Write Note Here]
- * 
+ *
  */
-
-public class NonStaticMembersSchema {
-
-  //* 2.2.1 Non-Static Variable (Instance Variable):
-  int instanceVariable;
-
-  //* 2.2.3 Non-Static Initializer (IIB - Instance Initializer Block):
-  {
-    // Write IIB logic here (executes before constructor on each object creation)
-  }
-
-  //* 2.2.4 Constructor:
-  public NonStaticMembersSchema() {
-    // Write Constructor logic here
-  }
-
-  //* 2.2.2 Non-Static Method (Instance Method):
-  public void instanceMethod() {
-    // Write non-static method logic here
-  }
-
-  public static void main(String[] args) {
-    System.out.println("=== NON-STATIC MEMBERS SCHEMA ===");
-    // Non-static members require object creation:
-    NonStaticMembersSchema obj = new NonStaticMembersSchema();
-    obj.instanceMethod();
-  }
-}
-
