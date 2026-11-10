@@ -26,3 +26,20 @@
 // ! Syntax: return value;
 // ! Syntax for void method: return;
 // ! Syntax for returning an expression: return expression;
+
+class ReturnStatementDemo {
+
+  static int add(int a, int b) {
+    return a + b;
+  }
+
+  static void display() {
+    System.out.println("Hello World!!");
+    return;
+  }
+
+  public static void main(String[] args) {
+    System.out.println(add(10, 34));
+    display();
+  }
+}
