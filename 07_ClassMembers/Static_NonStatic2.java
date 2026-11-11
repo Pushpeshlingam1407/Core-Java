@@ -38,13 +38,6 @@ public class Static_NonStatic2 {
     System.out.println(a + " " + b);
   }
 
-  public Static_NonStatic() {
-    System.out.println("Constructor");
-    a = a + 10;
-    b = b + 10;
-    System.out.println(a + " " + b);
-  }
-
   static int demo() {
     System.out.println("Demo method");
     return 5;
@@ -56,10 +49,6 @@ public class Static_NonStatic2 {
     Static_NonStatic e1 = new Static_NonStatic();
 
     System.out.println("Object 1: " + a + " " + e1.b);
-
-    Static_NonStatic e2 = new Static_NonStatic();
-
-    System.out.println("Object 2: " + a + " " + e2.b);
 
     System.out.println("Main ends");
   }
