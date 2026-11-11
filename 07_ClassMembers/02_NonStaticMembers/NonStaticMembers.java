@@ -1,4 +1,5 @@
-public class Example {
+//TODO: Demonstrate non-static members and instance initialization blocks.
+public class NonStaticMembers {
 
   int a = 10;
 
@@ -12,8 +13,8 @@ public class Example {
 
   public static void main(String[] args) {
     System.out.println("Hello world!!");
-    Example e1 = new Example();
-    Example e2 = new Example();
+    NonStaticMembers e1 = new NonStaticMembers();
+    NonStaticMembers e2 = new NonStaticMembers();
     System.out.println(e1);
     System.out.println(e2);
     System.out.println(e1.a);
