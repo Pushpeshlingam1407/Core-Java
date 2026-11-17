@@ -7,4 +7,3 @@
 //? 3. For Loop
 //? 4. For each / Advanced for loop
 
-public class LoopingStatements {}
