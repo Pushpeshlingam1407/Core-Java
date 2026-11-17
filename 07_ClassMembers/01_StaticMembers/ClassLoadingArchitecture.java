@@ -11,7 +11,7 @@
  * // ? The process of loading a class into the JRE is called the Class Loading
  * // ? Process.
  *
- * // ? It mainly consists of the following 3 steps:
+ * //*  It mainly consists of the following 3 steps:
  *
  * // ? 1. It creates a block of memory inside the Class Static Area and assigns
  * // ?    the same name as the class name.
