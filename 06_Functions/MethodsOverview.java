@@ -42,6 +42,11 @@
 //?    - Overloading the main() method
 //?    - Automatic Type Promotion and Ambiguity errors
 
+//? 7. 07_Recursion:
+//?    - What is Recursion? (A method calling itself)
+//?    - Base Case (terminating condition) vs Recursive Case
+//?    - Call stack mechanics and StackOverflowError prevention
+
 public class MethodsOverview {
 
   public static void main(String[] args) {
@@ -54,6 +59,7 @@ public class MethodsOverview {
     System.out.println("4. Method with Return Types (void & non-void)");
     System.out.println("5. The 'return' Keyword & Statement Rules");
     System.out.println("6. Method Overloading & Type Promotion");
+    System.out.println("7. Recursion (Base Case, Recursive Case & Call Stack)");
     System.out.println("==================================================");
   }
 }
