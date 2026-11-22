@@ -1,3 +1,5 @@
+//TODO: Trace execution order of SIBs, IIBs, and variable modifications during class loading and object creation
+
 public class Static_NonStatic {
 
   static int x = 10;

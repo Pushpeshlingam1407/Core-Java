@@ -1,3 +1,6 @@
+//TODO: WAP in Java to convert a decimal number to its binary representation
+// Example: num = 48 -> Binary: 110000
+
 public class Num2Binary {
 
   public static int bin(int num) {

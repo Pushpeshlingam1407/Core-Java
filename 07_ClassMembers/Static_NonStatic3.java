@@ -1,3 +1,5 @@
+//TODO: Trace execution order of SIBs and IIBs when creating multiple objects inside main()
+
 public class Static_NonStatic3 {
 
   static {

@@ -1,3 +1,6 @@
+//TODO: WAP in Java to swap adjacent digits of a number (in pairs of two)
+// Example: num = 123456 -> Output: 214365
+
 public class SwapAdjacentNum {
 
   public static void main(String[] args) {

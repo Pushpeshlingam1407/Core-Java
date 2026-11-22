@@ -1,4 +1,7 @@
-class PrimeOrNot {
+//TODO: WAP in Java to check whether a given number is Prime or not using recursion
+// Example: num = 17 -> Prime Number
+
+public class PrimeOrNot {
 
   public static boolean isPrime(int n, int i) {
     if (n < 2) return false;

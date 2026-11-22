@@ -1,3 +1,6 @@
+//TODO: WAP in Java to check whether a given number is a Magic Number or not
+// Example: num = 775 -> 7 + 7 + 5 = 19 -> 1 + 9 = 10 -> 1 + 0 = 1 (Magic Number)
+
 public class MagicNumber {
 
   public static boolean isMagic(int num) {

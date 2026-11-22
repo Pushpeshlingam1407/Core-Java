@@ -1,3 +1,5 @@
+//TODO: Demonstrate access rules between static and non-static methods (direct, via class name, and via object reference)
+
 public class StaticAndNonStaticMethodAccess {
 
   static int a = 10;

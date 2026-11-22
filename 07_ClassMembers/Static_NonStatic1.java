@@ -1,4 +1,6 @@
-class Static_NonStatic {
+//TODO: Demonstrate execution order of multiple SIBs and IIBs without creating an object
+
+public class Static_NonStatic1 {
 
   static int a = 10;
   int b = 20;
