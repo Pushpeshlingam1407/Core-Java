@@ -3,22 +3,39 @@
 
 public class ArmstrongNumber {
 
-  static String isArmstrong(int num) {
-    int temp = num,
-      sum = 0;
-    while (num > 0) {
+  public static int count(int num) {
+    int count = 0;
+    while (num != 0) {
       int dig = num % 10;
-      sum += cube(dig);
+      count++;
       num /= 10;
     }
-    return temp == sum ? "Armstrong number" : "Not an armstrong number";
+    return count;
   }
 
-  static int cube(int dig) {
-    return dig * dig * dig;
+  public static int pow(int b, int p) {
+    int res = 1;
+    for (int i = 1; i <= p; i++) {
+      res *= b;
+    }
+    return res;
+  }
+
+  public static boolean isArmstrong(int num) {
+    int sum = 0,
+      temp = num;
+    int c = count(num);
+    while (num != 0) {
+      int dig = num % 10;
+      sum += pow(dig, c);
+      num /= 10;
+    }
+    return sum == temp;
   }
 
   public static void main(String[] args) {
-    System.out.println(isArmstrong(156));
+    boolean des = isArmstrong(156);
+    if (!des) System.out.println("Not a Armstrong number!");
+    else System.out.println("Armstrong Number");
   }
 }
