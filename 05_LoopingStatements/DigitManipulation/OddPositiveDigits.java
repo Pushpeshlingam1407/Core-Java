@@ -1,3 +1,6 @@
+//TODO: WAP in Java to extract digits at even positions (from right to left) from a given number
+// Example: num = 123456 -> digits at positions 2, 4, 6 from right (5, 3, 1) -> Output: 531
+
 public class OddPositiveDigits {
 
   public static void main(String[] args) {

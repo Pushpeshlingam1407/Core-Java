@@ -1,3 +1,6 @@
+//TODO: WAP in Java to check whether a given number is a Neon Number or not
+// Example: num = 9 -> 9^2 = 81 -> sum of digits = 8 + 1 = 9 (Neon Number)
+
 public class NeonNumber {
 
   public static void main(String[] args) {

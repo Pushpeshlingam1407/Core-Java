@@ -1,3 +1,6 @@
+//TODO: WAP in Java to extract only the even digits from a given number and form a new reversed number
+// Example: num = 9632 -> even digits extracted in reverse order -> Output: 26
+
 public class EvenDigitsNumber {
 
   public static void main(String[] args) {

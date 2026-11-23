@@ -1,3 +1,6 @@
+//TODO: WAP in Java to check whether a given number is a Disarium Number or not
+// Example: num = 135 -> 1^1 + 3^2 + 5^3 = 1 + 9 + 125 = 135 (Disarium Number)
+
 public class DisariumNumber {
 
   public static int count(int num) {
