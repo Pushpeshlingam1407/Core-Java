@@ -3,7 +3,7 @@
 public class Case1 {
 
   static {
-    System.out.println("Hii this is SIB-I");
+    System.out.println("This is SIB-I");
   }
 
   {
