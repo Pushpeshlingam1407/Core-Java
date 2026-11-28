@@ -1,15 +1,31 @@
 //TODO: Case 3 - Making an object reference variable of a class as static in another class
 
 class Helper3 {
-  // Target class
+
+  static {
+    System.out.println("SIB of Helper Class");
+  }
+
+  {
+    System.out.println("IIB of Helper Class");
+  }
 }
 
 public class Case3 {
 
-  // Static reference variable of another class
-  static Helper3 obj;
+  static {
+    System.out.println("SIB of Case Class");
+  }
+
+  {
+    System.out.println("IIB of Case Class");
+  }
+
+  static Helper3 ob = new Helper3();
 
   public static void main(String[] args) {
-    // TODO: Write code here
+    System.out.println("Main Starts");
+    Case3 obj = new Case3();
+    System.out.println("Main Ends");
   }
 }

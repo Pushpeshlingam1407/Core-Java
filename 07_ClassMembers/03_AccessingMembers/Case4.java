@@ -1,15 +1,31 @@
 //TODO: Case 4 - Making an object reference variable of a class as non-static in another class
 
 class Helper4 {
-  // Target class
+
+  static {
+    System.out.println("SIB of Helper Class");
+  }
+
+  {
+    System.out.println("IIB of Helper class");
+  }
 }
 
 public class Case4 {
 
-  // Non-static (instance) reference variable of another class
-  Helper4 obj;
+  static {
+    System.out.println("SIB of Case class");
+  }
+
+  {
+    System.out.println("IIB of Case class");
+  }
+
+  Helper4 ob = new Helper4();
 
   public static void main(String[] args) {
-    // TODO: Write code here
+    System.out.println("Main Starts");
+    Case4 obj = new Case4();
+    System.out.println("Main ends");
   }
 }
