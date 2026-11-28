@@ -2,7 +2,13 @@
 
 public class DefaultConstructorExample {
 
+  int id;
+  String name;
+
   public static void main(String[] args) {
-    // TODO: Write code here
+    DefaultConstructorExample obj = new DefaultConstructorExample();
+
+    System.out.println(obj.id);
+    System.out.println(obj.name);
   }
 }

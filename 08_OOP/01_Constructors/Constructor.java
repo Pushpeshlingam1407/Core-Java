@@ -1,7 +1,6 @@
 
  //TODO: CONSTRUCTOR CONCEPT
 
- //* 3 Points of Definition:
  //* -- It is a special non-static member that is used to initialize non-static properties during object creation.
  //* -- The constructor name must always be the same as the class name; otherwise, we will get a Compile-Time Error.
  //* -- It is similar to a method, but it does not have any return type.
